@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1>Jukebox</h1>
+    <h2>Now Playing: <span id="song-loaded"></span></h2>
+    <audio id="audio">
+        <source id="src" src="songs/lulliby.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+    <button id="play">Play song</button><button id="pause">Pause song</button>
+    <h2>Pick a song:</h2>
+    <ul>
+        <li class="song" id="song1"><button>Load</button><span>Night</span> </li>
+        <li class="song" id="song1"><button>Load</button><span>Lulliby</span> </li>
+        <li class="song" id="song2"><button>Load</button><span>Jump</span> </li>
+        <li class="song" id ="song3"><button>Load</button><span>Elvish</span></li>
+    </ul>
+
+    <p>The mp3 files are royality-free songs for demonstration purpose</p>
+
+ <script src="main.js"></script>   
+</body>
+</html>
